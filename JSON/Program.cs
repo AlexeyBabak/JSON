@@ -10,6 +10,18 @@ namespace JSON
     {
         static void Main(string[] args)
         {
+            Person person = new Person
+            {
+                FirstName = "Alexey",
+                LastName = "Babak",
+                Age = 20
+            };
+            
+            var titleList = person.GetType().GetProperties();
+
+            Console.WriteLine(titleList);
+            Console.ReadKey();
+
         }
     }
 }
