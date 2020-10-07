@@ -10,7 +10,7 @@ namespace JSON
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        //[Ignore]
+        [Ignore]
         public int Age { get; set; }
     }
 }
